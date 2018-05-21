@@ -1,0 +1,25 @@
+{
+  "name": "taller-fc-testing-soluciones",
+  "version": "1.0.0",
+  "description": "Soluciones a los ejercicios de ES6Katas propuestos durante el taller de testing de la formación continua impartida en Adalab",
+  "scripts": {
+    "test": "mocha --require babel-register --require ./test/config.js",
+    "test:watch": "mocha --require babel-register --require ./test/config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adalab/taller-fc-testing-soluciones.git"
+  },
+  "author": "Asociación Adalab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adalab/taller-fc-testing-soluciones/issues"
+  },
+  "homepage": "https://github.com/adalab/taller-fc-testing-soluciones#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "jsdom": "^11.11.0",
+    "mocha": "^5.2.0"
+  }
+}
