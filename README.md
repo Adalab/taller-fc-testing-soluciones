@@ -27,16 +27,16 @@ npm install
 
 Una vez hayas clonado el repositorio e instalado las dependencias solo tienes que ejecutar el comando `npm test` para ejecutar los tests y ver si pasan. Si quieres que los tests se ejecuten cada vez que haces un cambio en un archivo, puedes utilizar `npm run test:watch`.
 
-Si ejecutas el comando `npm run test:watch` y quieres pararlo en algún momento, puedes hacerlo pulsando `control` + `C`.
+Si ejecutas el comando `npm run test:watch` y quieres pararlo en algún momento, puedes hacerlo pulsando `control + C`.
 
-**IMPORTANTE:** Al ejecutar el comando de `npm test` o `npm test:watch` solo se ejecutarán los tests que estén dentro de la carpeta `/test`. Puedes añadir tantos archivos como quieras a la carpeta test (o subcarpetas dentro de esta) y todos se ejecutarán pero es importante que estén situados todos dentro de esa carpeta.
+Cuando estamos trabajando en un ejercicio, lo normal es que solo queramos ejecutar los tests de ese ejercicio. Para eso podemos hacer `npm test ruta-al-fichero.js` para ejecutar solo los que nos interesan.
 
-En la carpeta test hay un archivo llamado `index.js`, ese archivo es un ejemplo y puedes borrarlo si lo deseas.
+**IMPORTANTE:** Al ejecutar el comando de `npm test` o `npm run test:watch` solo se ejecutarán los tests que estén dentro de la carpeta `/test`. Puedes añadir tantos archivos como quieras a la carpeta test (o subcarpetas dentro de esta) y todos se ejecutarán pero es importante que estén situados todos dentro de esa carpeta.
 
 
 ## Falta algo?
 
-Echas de menos que el kit haga algo en concreto? Pidelo sin problema a través de los Issues o si te animas a mejorarlo mándanos un PR :)
+Echas de menos que el kit haga algo en concreto? Pídelo sin problema a través de los Issues o si te animas a mejorarlo mándanos un PR :)
 
 
 ## Licencia
